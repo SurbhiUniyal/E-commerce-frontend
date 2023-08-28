@@ -30,12 +30,12 @@
         </div>
 
     </section>
-    <section id="page-header" class="about-header">
-        <h2>#let's_connect</h2>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <section id="page-header" class="cart-header">
+        <h2>#Your_cart</h2>
+        <p>Your product is just a click away!</p>
     </section>
     <section id="cart" class="section-p1">
-        <table width="100%">
+        <table id="myTable" width="100%">
             <tr>
                 <th>Remove</th>
                 <th>images</th>
@@ -45,8 +45,30 @@
                 <th>Subtotal</th>
             </tr>
             <tr>
-                <td></td>
+                <td><i class="fa-solid fa-trash" onclick="deleteRow(this)"></i></td>
+                <td><img src="images/f1.jpg"></td>
+                <td>Cartoon Astronaut t-shirt</td>
+                <td>$78</td>
+                <td><input type="number" value=1></td>
+                <td>$78</td>
             </tr>
+            <tr>
+                <td><i class="fa-solid fa-trash" onclick="deleteRow(this)"></i></td>
+                <td><img src="images/f2.jpg"></td>
+                <td>printed floral t-shirt</td>
+                <td>$80</td>
+                <td><input type="number" value=1></td>
+                <td>$80</td>
+            </tr>
+            <tr>
+                <td><i class="fa-solid fa-trash" onclick="deleteRow(this)"></i></td>
+                <td><img src="images/f1.jpg"></td>
+                <td>Cartoon Astronaut t-shirt</td>
+                <td>$78</td>
+                <td><input type="number" value=1></td>
+                <td>$78</td>
+            </tr>
+            
         </table>
 
     </section>
